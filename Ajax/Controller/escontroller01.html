@@ -7,7 +7,7 @@
   	<div ng-app="myApp" ng-controller="namesCtrl">
   		Ricerca tramite id:
   		<input ng-model="id">
-		   <div ng-repeat="x in names | filter:id">
+		   <div ng-repeat="x in names">
   				<ul>
   					<li>Nome:{{ x.name}}</li>
   					<li>Cognome:{{ x.surname}}</li>
