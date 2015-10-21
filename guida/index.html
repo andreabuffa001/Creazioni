@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style type="text/css">
+  #container{
+    width: 350px;
+  }
+  </style>
 	  <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +21,38 @@
     <title>Guida all'utilizzo</title>
 </head>
 <body>
-  <div>Questa &egrave la guida che ti aiuterà a muovere i primi passi sul nuovo sito di siciliamotori</div>
+  <p><h1>Guida Introduttiva</h1></p>
+  <p><h4>Questa &egrave la guida che ti aiuterà a muovere i primi passi sul nuovo sito di siciliamotori</h4></p>
+  <div id="container">
+    <ul class="list-group">
+      <li class="list-group-item" data-toggle="collapse" data-target="#collapseRegistrazione" aria-expanded="false" aria-controls="collapseRegistrazione">Registrazione al sito
+        <ul class="collapse" id="collapseRegistrazione">
+          <li><a href="./registrazione.html">Prima registrazione</a></li>
+          <li><a href="./profilo.html">Modificare il proprio profilo</a></li>
+        </ul>
+      </li>
+      <li class="list-group-item" data-toggle="collapse" data-target="#collapsePanoramica" aria-expanded="false" aria-controls="collapsePanoramica">Composizione del sito
+        <ul class="collapse" id="collapsePanoramica">
+          <li><a href="./panoramica.html">Panoramica Generale</a></li>
+          <li><a href="./zonespec.html">Zone Speciali</a></li>
+        </ul>
+      </li>
+      <li class="list-group-item" data-toggle="collapse" data-target="#collapseArticoli" aria-expanded="false" aria-controls="collapseArticoli">Articoli
+        <ul class="collapse" id="collapseArticoli">
+          <li><a href="./newarticolo.html">Inserimento nuovo articolo</a></li>
+          <li><a href="./newvideo.html">Inserimento di un video</a></li>
+          <li><a href="./newgallery.html">Inserimento di una gallery fotografica</a></li>
+          <li><a href="./seoarticolo.html">SEO per gli articoli</a></li>
+        </ul>
+      </li>
+      <li class="list-group-item" data-toggle="collapse" data-target="#collapseLegenda" aria-expanded="false" aria-controls="collapseLegenda">Legenda tasti utili
+        <ul class="collapse" id="collapseLegenda">
+          <li><a href="./legarticolo.html">Tasti utili per l'articolo</a></li>
+          <li><a href="./legaltri.html">Altri tasti utili</a></li>
+        </ul>
+      </li>
+      </ul>
+  </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
